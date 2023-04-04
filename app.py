@@ -1,17 +1,18 @@
-from flask import Flask, request
+from flask import Flask
+from flask import request
 
 app = Flask(__name__)
 
-hackathons= {
+hackathons = {
     "GHW: API Week": {
-        "start date": "2023-04-03 12:00:00",
+        "start_date": "2023-04-03 12:00:00",
         "end_date": "2023-04-10 12:00:00",
         "location": "Everywhere, Online",
         "type": "Digital Only"
-        },
+    },
     "Bitcamp": {
-        "start date": "2023-04-07 12:00:00",
-        "end date": "2023-04-09 12:00:00",
+        "start_date": "2023-04-07 12:00:00",
+        "end_date": "2023-04-09 12:00:00",
         "location": "College Park, Maryland",
         "type": "In-Person Only"
     }
