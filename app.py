@@ -19,7 +19,7 @@ hackathons= {
 
 @app.route("/")
 def hello_ghw():
-    return "<p>Hello new users --final push!</p>"
+    return "<p>Hello new users --final push-for GET!</p>"
 
 @app.route('/getHackathons', methods=['GET'])
 def getHackathons():
