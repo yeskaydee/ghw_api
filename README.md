@@ -1,5 +1,5 @@
 # ghw_api
-A basic api implementation
+A basic api implementation using GITHUB Actions 
 
 Here are some docuemntations i followed \
 [for basic flask code to implement ](https://flask.palletsprojects.com/en/2.2.x/quickstart/)  \
